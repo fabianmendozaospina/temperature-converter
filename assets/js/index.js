@@ -4,7 +4,6 @@ const inputTemperature = document.querySelector('#temperature');
 const inputGrades = document.getElementsByName('grades');
 const output = document.querySelector('.output p');
 const convert = document.querySelector('#convert');
-//const theme = document.querySelector('#theme');
 const themeStylesheet = document.getElementById('themeStylesheet');
 const currentTheme = document.querySelector('.theme');
 
@@ -19,7 +18,6 @@ function isNumber(input) {
 convert.addEventListener('click', function(event) {
     event.preventDefault();
 
-    // Fetching the input values.
     let temperature = inputTemperature.value.trim();
     let grades = inputGrades;
 
